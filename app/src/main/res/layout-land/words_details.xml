@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@color/colorWhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:padding="20dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginEnd="40dp" >
+
+            <TextView
+                android:id="@+id/tv_Word"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:text="word"
+                android:textColor="@color/colorPrimary"
+                android:textSize="60sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/laba"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@mipmap/laba" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_Meaning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="phonetic and explains"
+            android:textSize="17sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="网络释义："
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_Sample"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="web explains"
+            android:textSize="17sp"
+            android:typeface="monospace" />
+
+    </LinearLayout>
+
+</ScrollView>

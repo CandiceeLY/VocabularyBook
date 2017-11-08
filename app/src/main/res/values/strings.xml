@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">快捷单词本</string>
+    <string name="home_name">快捷单词本</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_search_hint">查找本地单词：</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment!</string>
+</resources>

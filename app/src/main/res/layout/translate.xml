@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:padding="15sp">
+
+    <EditText
+        android:id="@+id/translate_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="top"
+        android:hint="待翻译的语句："
+        android:background="@color/colorYellow" />
+
+    <Button
+        android:id="@+id/translate_bt"
+        android:layout_width="77dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.23"
+        android:layout_marginTop="15sp"
+        android:background="@mipmap/fanyi" />
+
+    <TextView
+        android:id="@+id/translate_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:hint="\n 翻译结果为..."
+        android:textSize="19sp"
+        android:layout_marginTop="15sp"
+        android:background="@color/colorYellow"/>
+</LinearLayout>
